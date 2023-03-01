@@ -1,0 +1,83 @@
+body{
+    color: #eee;
+    background-color:#222 ;
+}
+header{
+    position: relative;
+    height: 35vh;
+    border-bottom: 4px solid #eee;
+}
+h2{
+    font-size: 3.5rem;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+main{
+    height: 65vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left{
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right{
+    width:50rem ;
+    font-size:2rem;
+} 
+.between{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+/* .number{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+} */
+.again{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+.number{
+    color: #222;
+    width: 10rem;
+    height: 0.75rem;
+    font-size: 3rem;
+    background-color: #eee;
+    padding: 3rem 0rem;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.guess{
+    background-color: #222;
+    color: #eee;
+    border: 3px solid #eee;
+    padding: 2rem 0rem;
+    font-size: 3rem;
+    width: 25rem;
+    
+}
+
+.btn{
+    border: none;
+    cursor: pointer;
+    width: 15rem;
+    font-size: 1rem;
+    padding:1rem 2rem;
+    margin-top: 1rem;
+}
+.btn:hover{
+    background-color: #A9A9A9;
+}
